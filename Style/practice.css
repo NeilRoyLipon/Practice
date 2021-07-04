@@ -105,3 +105,37 @@
     font-family: 'Pacifico', cursive;
     font-size: 20px;
 }
+
+.content-right{
+    flex-basis: 70%;
+    position: relative;
+}
+
+.display{
+    left: -23%;
+    top: 20%;
+    position: absolute;
+}
+
+.display img{
+    width: 400px;
+    height: 400px;
+}
+
+.text{
+    bottom: 20%;
+    right: 15%;
+    position: absolute;
+}
+
+.text h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 60px;
+}
+
+.text p{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 25px;
+}
