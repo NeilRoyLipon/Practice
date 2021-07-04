@@ -30,13 +30,13 @@
 
 .nav-icons{
     top: 25%;
-    left: 5%;
+    left: 15%;
     position: absolute;
 }
 
 .nav-icons ul li{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
 .nav-icons ul li i{
@@ -75,4 +75,33 @@
     font-family: 'Pacifico', cursive;
     color: hotpink;
     font-size: 30px;
+}
+
+.content{
+    height: 90%;
+    display: flex;
+}
+
+.content-left{
+    background-color: white;
+    flex-basis: 30%;
+    position: relative;
+}
+
+.social-media{
+    top: 85%;
+    left: 10%;
+    position: absolute;
+}
+
+.social-media ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-media ul li a{
+    color: hotpink;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
 }
