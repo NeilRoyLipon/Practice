@@ -16,3 +16,29 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.navbar{
+    height: 10%;
+    display: flex;
+}
+
+.nav-left{
+    background-color: white;
+    flex-basis: 30%;
+    position: relative;
+}
+
+.nav-icons{
+    top: 25%;
+    left: 5%;
+    position: absolute;
+}
+
+.nav-icons ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-right{
+    flex-basis: 70%;
+}
