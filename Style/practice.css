@@ -45,4 +45,34 @@
 
 .nav-right{
     flex-basis: 70%;
+    position: relative;
+}
+
+.nav-menus{
+    top: 10%;
+    right: 15%;
+    position: absolute;
+}
+
+.nav-menus ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-menus ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.nav-menus ul li a:hover{
+    color: hotpink;
+    border-bottom: 1px white solid;
+    padding-bottom: 10px;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    color: hotpink;
+    font-size: 30px;
 }
